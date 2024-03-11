@@ -1,0 +1,56 @@
+.product-details-container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.product-details h1{
+  text-align: center;
+  color: #000C66;
+}
+
+.product-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.product-info {
+  flex: 1;
+  max-width: 600px;
+}
+
+.product-info h3 {
+  color: black;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.quantity-selection {
+  margin-bottom: 20px;
+}
+
+.quantity-selection label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.quantity-selection input {
+  width: 50px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.product-image img {
+  width: 80%; 
+  height: 500px; 
+}
